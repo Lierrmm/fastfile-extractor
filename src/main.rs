@@ -1,7 +1,6 @@
 #![allow(unused_variables)]
 #![allow(non_snake_case)]
 #![allow(unused_must_use)]
-
 #![feature(read_buf)]
 
 use std::{env, io::{Read, Seek, ReadBuf}, fs, mem::MaybeUninit};
